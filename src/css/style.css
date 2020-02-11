@@ -1,0 +1,45 @@
+body {
+    background: turquoise;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.caratula {
+    width: 500px;
+    height: 500px;
+    background: url(https://images-na.ssl-images-amazon.com/images/I/81bkBmODx9L._SL1500_.jpg);
+    background-size: 500px;
+}
+
+.grande {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.medio {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pequeño {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
